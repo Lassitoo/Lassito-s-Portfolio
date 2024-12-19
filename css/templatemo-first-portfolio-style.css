@@ -1190,3 +1190,21 @@ strong {
   }
 }
 
+.circular-image {
+  border-radius: 50%; /* Maintient le cercle */
+  width: 300px; /* Augmente la largeur */
+  height: 300px; /* Augmente la hauteur pour correspondre à la largeur */
+  object-fit: cover; /* Centre et ajuste l'image dans le cercle */
+  border: 3px solid #fff; /* Optionnel : ajoute une bordure blanche */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre */
+}
+
+.avatar-image {
+  border-radius: 50%; /* Maintient l'image en forme de cercle */
+  width: 100px; /* Largeur réduite pour une petite image */
+  height: 100px; /* Hauteur égale à la largeur pour conserver le cercle */
+  object-fit: cover; /* Centre et ajuste l'image dans le cercle */
+  border: 2px solid #fff; /* Optionnel : ajoute une bordure blanche */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre légère */
+}
+
